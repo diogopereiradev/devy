@@ -1,0 +1,44 @@
+{
+  "name": "devy",
+  "version": "1.0.0",
+  "description": "Devy is an app that will help you concentrate on your studies, it provides sound tools, a timer, etc, to help you concentrate.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FhillSlinger/devy.git"
+  },
+  "author": {
+    "name": "Diogo Pereira(FhillSlinger)",
+    "url": "https://github.com/FhillSlinger",
+    "email": "diogopereira.contact@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2",
+    "@types/node": "^18.7.10",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "@vitejs/plugin-react": "^3.0.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.1",
+    "typescript": "^4.6.4",
+    "vite": "^4.0.0"
+  }
+}
