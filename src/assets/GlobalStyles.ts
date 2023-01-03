@@ -15,6 +15,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 10rem;
     color: #dddddd;
     background-color: #363849;
+    overflow: hidden;
   }
 
   button, a, ul, ol, input, textarea {
@@ -24,28 +25,12 @@ export const GlobalStyles = createGlobalStyle`
     list-style-type: none;
   }
 
-  .flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .flex-justify-center {
-    display: flex;
-    justify-content: center;
-  }
-
-  .flex-align-center {
-    display: flex;
-    align-items: center;
-  }
-
   ::-webkit-scrollbar {
     width: 6px;
     background-color: transparent;
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #262738;
+    background-color: #22232e;
   }
 `;

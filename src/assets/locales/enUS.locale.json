@@ -1,6 +1,7 @@
 { 
   "name": "en-US",
   "data": {
-    
+    "soundslist.infos.title": "Sounds to study",
+    "soundslist.infos.text": "You can combine sounds to create a harmony that you like, it is recommended to combine only 3 sounds."
   }
 }
