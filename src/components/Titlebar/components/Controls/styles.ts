@@ -43,3 +43,22 @@ export const MinimizeButton = styled.button`
     background-color: #65669c;
   }
 `;
+
+export const ChangeLanguageButton = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 23px;
+  transition: .3s;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #7273b0;
+  }
+  &:active {
+    background-color: #65669c;
+  }
+`;

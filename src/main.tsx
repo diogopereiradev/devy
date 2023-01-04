@@ -11,8 +11,8 @@ window.onload = () => {
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   createRoot(root!).render(
     <React.StrictMode>
-      <GlobalStyles />
       <TranslationProvider>
+        <GlobalStyles />
         <App />
       </TranslationProvider>
     </React.StrictMode>
