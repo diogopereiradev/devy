@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SoundsListContainer = styled.div`
-  width: 55%;
+  width: 50%;
   height: 100%;
 `;
 

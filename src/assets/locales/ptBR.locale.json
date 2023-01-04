@@ -2,6 +2,18 @@
   "name": "pt-BR",
   "data": {
     "soundslist.infos.title": "Sons para estudar",
-    "soundslist.infos.text": "Você pode combinar sons para criar uma harmonia que te agrade, é recomendado combinar apenas 3 sons."
+    "soundslist.infos.text": "Você pode combinar sons para criar uma harmonia que te agrade, é recomendado combinar apenas 3 sons.",
+    "soundslist.sound.rain.title": "Chuva",
+    "soundslist.sound.thunders.title": "Raios",
+    "soundslist.sound.night.title": "Noite",
+    "soundslist.sound.waterstream.title": "Corrente de água",
+    "soundslist.sound.raindropping.title": "Goteiras",
+    "soundslist.sound.wind.title": "Vento",
+    "soundslist.sound.campfire.title": "Fogueira",
+    "soundslist.sound.birds.title": "Passáros",
+    "soundslist.sound.leaves.title": "Folhas",
+    "soundslist.sound.brownnoise.title": "Ruído Marrom",
+    "soundslist.sound.brownnoise2.title": "Ruído Marrom 2",
+    "soundslist.sound.brownnoise3.title": "Ruído Marrom 3"
   }
 }

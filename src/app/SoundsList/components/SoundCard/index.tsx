@@ -8,6 +8,7 @@ import {
 import { IconType } from 'react-icons';
 
 interface SoundCardProps {
+  title?: string,
   icon: IconType,
   sound: string
 }
@@ -25,7 +26,7 @@ export function SoundCard(props: SoundCardProps): JSX.Element {
   return(
     <SoundCardContainer>
       <IconContainer
-        title="aaaa"
+        title={props.title}
         onClick={() => setCardIsActive(!cardIsActive)} 
         style={{ backgroundColor: cardIsActive? '#7D85D1' : '#5B5F89' }}
       >

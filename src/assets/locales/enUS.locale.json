@@ -2,6 +2,18 @@
   "name": "en-US",
   "data": {
     "soundslist.infos.title": "Sounds to study",
-    "soundslist.infos.text": "You can combine sounds to create a harmony that you like, it is recommended to combine only 3 sounds."
+    "soundslist.infos.text": "You can combine sounds to create a harmony that you like, it is recommended to combine only 3 sounds.",
+    "soundslist.sound.rain.title": "Rain",
+    "soundslist.sound.thunders.title": "Thunders",
+    "soundslist.sound.night.title": "Night",
+    "soundslist.sound.waterstream.title": "Water Stream",
+    "soundslist.sound.raindropping.title": "Rain Dropping",
+    "soundslist.sound.wind.title": "Wind",
+    "soundslist.sound.campfire.title": "Campfire",
+    "soundslist.sound.birds.title": "Birds",
+    "soundslist.sound.leaves.title": "Leaves",
+    "soundslist.sound.brownnoise.title": "Brown Noise",
+    "soundslist.sound.brownnoise2.title": "Brown Noise 2",
+    "soundslist.sound.brownnoise3.title": "Brown Noise 3"
   }
 }
