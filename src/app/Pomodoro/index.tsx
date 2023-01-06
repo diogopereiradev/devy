@@ -1,25 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {
-  PomodoroContainer,
-  FormsContainer
+  PomodoroContainer
 } from './styles';
 
 import { Infos } from './components/Infos';
-import { ClockPage } from './forms/ClockPage';
+import { Clock } from './components/Clock';
 
 export function Pomodoro(): JSX.Element {
-  const [pomodoroCurrentForm, setPomodoroForm] = useState<JSX.Element>(<></>);
-
-  useEffect(() => {
-    setPomodoroForm(<ClockPage/>);
-  }, []);
-
   return(
     <PomodoroContainer>
       <Infos />
-      <FormsContainer>
-        {pomodoroCurrentForm}
-      </FormsContainer>
+      <Clock />
     </PomodoroContainer>
   );
 }

@@ -15,43 +15,7 @@
       "iconAsTemplate": true
     },
     "allowlist": {
-      "window": {
-        "center": true,
-        "close": true,
-        "create": true,
-        "hide": true,
-        "maximize": true,
-        "minimize": true,
-        "requestUserAttention": true,
-        "setAlwaysOnTop": true,
-        "setDecorations": true,
-        "setFocus": true,
-        "setIcon": true,
-        "setMaxSize": true,
-        "setMinSize": true,
-        "setPosition": true,
-        "setResizable": true,
-        "setSize": true,
-        "setTitle": true,
-        "show": true,
-        "startDragging": true,
-        "unmaximize": true,
-        "unminimize": true
-      },
-      "app": {
-        "hide": true,
-        "show": true
-      },
-      "dialog": {
-        "ask": true,
-        "confirm": true,
-        "message": true,
-        "open": true,
-        "save": true
-      },
-      "notification": {
-        "all": true
-      }
+      "all": true
     },
     "bundle": {
       "active": true,
@@ -87,7 +51,8 @@
       }
     },
     "security": {
-      "csp": ""
+      "csp": "",
+      "devCsp": ""
     },
     "updater": {
       "active": false

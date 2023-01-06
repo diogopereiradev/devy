@@ -23,7 +23,20 @@ interface Pagination {
 export function usePagination(options: PaginationOptions): Pagination  {
   const [page, setPage] = useState(1);
   const maxPages = calculateMaxPages(options.items.length, options.perPage);
-  const pageItems = options.items.slice((page - 1) * options.perPage, page * options.perPage);
+
+  const pageItems = options.items.map(elem => {
+    const slicedData = options.items.slice((page - 1) * options.perPage, page * options.perPage);
+
+    if(slicedData.includes(elem)) return React.createElement(elem.type, { ...elem.props, key: elem.key });
+    
+    return React.createElement(elem.type, {
+      ...elem.props,
+      key: elem.key,
+      style: {
+        display: 'none'
+      }
+    });
+  });
 
   const handleNextPage = () => {
     if(page == maxPages) return;

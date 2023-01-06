@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, CSSProperties } from 'react';
 import {
   IconContainer,
   SoundCardContainer,
@@ -9,6 +9,7 @@ import { IconType } from 'react-icons';
 
 interface SoundCardProps {
   title?: string,
+  style?: CSSProperties,
   icon: IconType,
   sound: string
 }
@@ -24,7 +25,7 @@ export function SoundCard(props: SoundCardProps): JSX.Element {
   }, [soundVolume, audioRef.current]);
 
   return(
-    <SoundCardContainer>
+    <SoundCardContainer style={props.style}>
       <IconContainer
         title={props.title}
         onClick={() => setCardIsActive(!cardIsActive)} 
@@ -38,7 +39,7 @@ export function SoundCard(props: SoundCardProps): JSX.Element {
       {cardIsActive && (
         <SoundCardVolumeControlContainer>
           <SoundCardVolumeControl 
-            onChange={(e) => setSoundVolume(Number(e.currentTarget.value))}
+            onChange={(e) => setSoundVolume(parseInt(e.currentTarget.value))}
             value={soundVolume}
           />
         </SoundCardVolumeControlContainer>

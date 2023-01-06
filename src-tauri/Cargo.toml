@@ -14,7 +14,7 @@ tauri-build = { version = "1.2", features = [] }
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
-tauri = { version = "1.2", features = ["app-hide", "app-show", "dialog-ask", "dialog-confirm", "dialog-message", "dialog-open", "dialog-save", "notification-all", "system-tray", "window-center", "window-close", "window-create", "window-hide", "window-maximize", "window-minimize", "window-request-user-attention", "window-set-always-on-top", "window-set-decorations", "window-set-focus", "window-set-icon", "window-set-max-size", "window-set-min-size", "window-set-position", "window-set-resizable", "window-set-size", "window-set-title", "window-show", "window-start-dragging", "window-unmaximize", "window-unminimize"] }
+tauri = { version = "1.2", features = ["api-all", "system-tray"] }
 
 [features]
 default = ["custom-protocol"]

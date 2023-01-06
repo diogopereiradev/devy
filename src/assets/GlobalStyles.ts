@@ -18,7 +18,7 @@ export const GlobalStyles = createGlobalStyle`
     overflow: hidden;
   }
 
-  button, a, ul, ol, input, textarea {
+  button, a, ul, ol, input, textarea, select, option {
     border: none;
     resize: none;
     text-decoration: none;
