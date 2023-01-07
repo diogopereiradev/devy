@@ -14,6 +14,12 @@
 </div>
 
 <div>
+  <h1>Qual o propósito do app?</h1>
+  <p>O app Devy foi desenvolvido para rodar sons ambientes e lofi de fundo, ele também tem um pomodoro embutido que contém uma configuração padrão de 25 minutos de estudos e 5 minutos de descanso, você pode ver uma demonstração do app funcionando no link abaixo:</p>
+  <a href="https://www.dropbox.com/s/oyopzni2uolhbqx/20230107_091556.mp4?dl=0">Demonstração</a>
+</div>
+
+<div>
   <h1>Como obter o app versão lançamento?</h1>
   <p>Você consegue obter todas as versões do app na seção de releases do repositório:</p>
   <a href="https://github.com/FhillSlinger/devy/releases">Downloads</a>
