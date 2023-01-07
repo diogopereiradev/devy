@@ -3,6 +3,7 @@
     windows_subsystem = "windows"
 )]
 
+use sysinfo::{ProcessExt, PidExt, System, SystemExt};
 use tauri::Manager;
 use tauri::{CustomMenuItem, SystemTrayMenu, SystemTrayMenuItem, SystemTray, SystemTrayEvent};
 
@@ -24,7 +25,17 @@ fn system_tray() -> SystemTray {
   tray
 }
 
+fn check_multiple_instances() {
+  let s = System::new_all();
+  for (pid, process) in s.processes() {
+    if std::process::id() != pid.as_u32() && process.name() == "Devy.exe" {
+      std::process::exit(0);
+    }
+  }
+}
+
 fn main() {
+  check_multiple_instances();
   let tray = system_tray();
   tauri::Builder::default()
     .system_tray(tray)
