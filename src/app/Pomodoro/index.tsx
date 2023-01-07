@@ -3,14 +3,17 @@ import {
   PomodoroContainer
 } from './styles';
 
+import { PomodoroProvider } from '../../assets/hooks/usePomodoro';
 import { Infos } from './components/Infos';
 import { Clock } from './components/Clock';
 
 export function Pomodoro(): JSX.Element {
   return(
-    <PomodoroContainer>
-      <Infos />
-      <Clock />
-    </PomodoroContainer>
+    <PomodoroProvider>
+      <PomodoroContainer>
+        <Infos />
+        <Clock/>
+      </PomodoroContainer>
+    </PomodoroProvider>
   );
 }

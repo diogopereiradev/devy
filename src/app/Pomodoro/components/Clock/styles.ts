@@ -50,6 +50,15 @@ export const ClockPointersContainer = styled.div`
 `;
 
 export const ClockMinutesPointer = styled.div`
+  // This animation is used in custom class on GlobalStyles.ts
+  @keyframes minutesPointerRotate {
+    from {
+      transform: rotate(90deg);
+    } to {
+      transform: rotate(450deg);
+    }
+  }
+
   width: 35%;
   right: 50%;
   height: 6px;
@@ -59,10 +68,18 @@ export const ClockMinutesPointer = styled.div`
   border-radius: 6px;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 `;
 
 export const ClockSecondsPointer = styled.div`
+  // This animation is used in custom class on GlobalStyles.ts
+  @keyframes secondsPointerRotate {
+    from {
+      transform: rotate(90deg);
+    } to {
+      transform: rotate(450deg);
+    }
+  }
+
   width: 43%;
   right: 49.4%;
   height: 3px;
@@ -72,7 +89,6 @@ export const ClockSecondsPointer = styled.div`
   border-radius: 6px;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   z-index: -1;
 `;
 
@@ -166,6 +182,14 @@ export const ClockExtraCardinalLines2 = styled.div`
 `;
 
 export const HowToUseTextContainer = styled.div`
+  @keyframes show {
+    from {
+      opacity: 0;
+    } to {
+      opacity: 1;
+    }
+  }
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -175,6 +199,7 @@ export const HowToUseTextContainer = styled.div`
   top: 30px;
   width: 90%;
   margin-left: -5%;
+  animation: show 0.4s;
 `;
 
 export const HowToUseText = styled.div`

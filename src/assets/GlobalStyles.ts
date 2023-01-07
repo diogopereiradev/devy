@@ -33,4 +33,12 @@ export const GlobalStyles = createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     background-color: #22232e;
   }
+
+  .animateSeconds {
+    animation: secondsPointerRotate 10s infinite;
+  }
+
+  .animateMinutes {
+    animation: minutesPointerRotate 120s infinite;
+  }
 `;

@@ -3,8 +3,10 @@ import { FaCloudRain, FaWater, FaWind } from 'react-icons/fa';
 import { AiFillThunderbolt } from 'react-icons/ai';
 import { BsFillCloudMoonFill } from 'react-icons/bs';
 import { IoMdWater } from 'react-icons/io';
-import { GiCampfire, GiNestBirds, GiThreeLeaves, GiSoundWaves } from 'react-icons/gi';
+import { GiCampfire, GiThreeLeaves } from 'react-icons/gi';
 import { RiHeadphoneFill } from 'react-icons/ri';
+import { FaKiwiBird } from 'react-icons/fa';
+import { TbWaveSawTool } from 'react-icons/tb';
 
 import enUS from '../../assets/locales/enUS.locale.json';
 import ptBR from '../../assets/locales/ptBR.locale.json';
@@ -23,11 +25,11 @@ export const sounds = ({ data }: Translation) => [
 
   // Nature
   <SoundCard key={7} title={data['soundslist.sound.campfire.title']} icon={GiCampfire} sound='/sounds/campfire.ogg'/>,
-  <SoundCard key={8} title={data['soundslist.sound.birds.title']} icon={GiNestBirds} sound='/sounds/birds.ogg'/>,
+  <SoundCard key={8} title={data['soundslist.sound.birds.title']} icon={FaKiwiBird} sound='/sounds/birds.ogg'/>,
   <SoundCard key={9} title={data['soundslist.sound.leaves.title']} icon={GiThreeLeaves} sound='/sounds/leaves.ogg'/>,
-  <SoundCard key={10} title={data['soundslist.sound.brownnoise.title']} icon={GiSoundWaves} sound='/sounds/brown-noise.ogg'/>,
-  <SoundCard key={11} title={data['soundslist.sound.brownnoise2.title']} icon={GiSoundWaves} sound='/sounds/brown-noise2.ogg'/>,
-  <SoundCard key={12} title={data['soundslist.sound.brownnoise3.title']} icon={GiSoundWaves} sound='/sounds/brown-noise3.ogg'/>,
+  <SoundCard key={10} title={data['soundslist.sound.brownnoise.title']} icon={TbWaveSawTool} sound='/sounds/brown-noise.ogg'/>,
+  <SoundCard key={11} title={data['soundslist.sound.brownnoise2.title']} icon={TbWaveSawTool} sound='/sounds/brown-noise2.ogg'/>,
+  <SoundCard key={12} title={data['soundslist.sound.brownnoise3.title']} icon={TbWaveSawTool} sound='/sounds/brown-noise3.ogg'/>,
 
   // Digital
   <SoundCard key={13} title='Lofi' icon={RiHeadphoneFill} sound='/sounds/lofi.ogg'/>
