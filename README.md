@@ -29,7 +29,7 @@
 </div>
 
 <div>
-  <h1>Quais tecnologias forma usadas para o desenvolvimento?</h1>
+  <h1>Quais tecnologias foram usadas para o desenvolvimento?</h1>
   <ul>
     <li>Tauri</li>
     <li>React.js</li>
