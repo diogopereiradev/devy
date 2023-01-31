@@ -25,7 +25,7 @@
   <a href="https://github.com/FhillSlinger/devy/releases">Downloads</a>
   <br />
   <br />
-  <p>Só avisando, o app Devy funciona apenas no windows, ao acessar a página de releases do repositório, baixe o arquivo .msi da versão "latest", ele é o instalador do app.</p>
+  <p>Só avisando, o app Devy funciona apenas no windows.</p>
 </div>
 
 <div>
