@@ -1,8 +1,15 @@
 { 
   "name": "en-US",
   "data": {
+    "titlebar.close.confirmationmodal.title": "What do you want to do?",
+    "titlebar.close.confirmationmodal.closeapp": "Close application",
+    "titlebar.close.confirmationmodal.form.systemtray": "System Tray",
+    "titlebar.close.confirmationmodal.form.submit.button.cancel": "Cancel",
+    "titlebar.close.confirmationmodal.form.submit.button.confirm": "Confirm",
+
     "soundslist.infos.title": "Sounds to study",
     "soundslist.infos.text": "You can combine sounds to create a harmony that you like, it is recommended to combine only 3 sounds.",
+
     "pomodoro.infos.title": "Pomodoro",
     "pomodoro.infos.text": "This feature is a simple pomodoro to help you on organize your studies.",
     "pomodoro.clock.howtouse.text": "Click in clock to start",
@@ -17,6 +24,7 @@
     "pomodoro.start.clock.notification.body": "Now it's time to",
     "pomodoro.start.clock.notification.body.study": "Study",
     "pomodoro.start.clock.notification.body.rest": "Rest",
+    
     "soundslist.sound.rain.title": "Rain",
     "soundslist.sound.thunders.title": "Thunders",
     "soundslist.sound.night.title": "Night",

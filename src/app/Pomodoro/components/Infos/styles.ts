@@ -19,5 +19,5 @@ export const InfosText = styled.p`
   font-family: Roboto;
   font-weight: 500;
   font-size: 1.3rem;
-  color: #9E99D3;
+  color: #aba6e0;
 `;

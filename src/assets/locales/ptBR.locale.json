@@ -1,8 +1,15 @@
 {
   "name": "pt-BR",
   "data": {
+    "titlebar.close.confirmationmodal.title": "O que deseja fazer?",
+    "titlebar.close.confirmationmodal.closeapp": "Fechar aplicativo",
+    "titlebar.close.confirmationmodal.form.systemtray": "Bandeja do sistema",
+    "titlebar.close.confirmationmodal.form.submit.button.cancel": "Cancelar",
+    "titlebar.close.confirmationmodal.form.submit.button.confirm": "Confirmar",
+
     "soundslist.infos.title": "Sons para estudar",
     "soundslist.infos.text": "Você pode combinar sons para criar uma harmonia que te agrade, é recomendado combinar apenas 3 sons.",
+
     "pomodoro.infos.title": "Pomodoro",
     "pomodoro.infos.text": "Este recurso é um pomodoro simples para ajudá-lo a organizar seus estudos.",
     "pomodoro.clock.howtouse.text": "Clique no relógio para começar",
@@ -17,6 +24,7 @@
     "pomodoro.start.clock.notification.body": "Agora é hora de",
     "pomodoro.start.clock.notification.body.study": "Estudar",
     "pomodoro.start.clock.notification.body.rest": "Descansar",
+
     "soundslist.sound.rain.title": "Chuva",
     "soundslist.sound.thunders.title": "Raios",
     "soundslist.sound.night.title": "Noite",

@@ -1,8 +1,6 @@
-#![cfg_attr(
-    all(not(debug_assertions), target_os = "windows"),
-    windows_subsystem = "windows"
-)]
+#![windows_subsystem = "windows"]
 
+use std::env;
 use sysinfo::{ProcessExt, PidExt, System, SystemExt};
 use tauri::Manager;
 use tauri::{CustomMenuItem, SystemTrayMenu, SystemTrayMenuItem, SystemTray, SystemTrayEvent};
@@ -35,9 +33,12 @@ fn check_multiple_instances() {
 }
 
 fn main() {
-  check_multiple_instances();
-  let tray = system_tray();
-  tauri::Builder::default()
+  if cfg!(target_os = "windows") {
+    check_multiple_instances();
+
+    let tray = system_tray();
+
+    tauri::Builder::default()
     .system_tray(tray)
     .on_system_tray_event(|app, event| match event {
       SystemTrayEvent::LeftClick { .. } => {
@@ -65,4 +66,10 @@ fn main() {
     .invoke_handler(tauri::generate_handler![])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");
+  } else {
+    tauri::Builder::default()
+    .invoke_handler(tauri::generate_handler![])
+    .run(tauri::generate_context!())
+    .expect("error while running tauri application");
+  }
 }
