@@ -10,7 +10,6 @@
   <img src="https://img.shields.io/github/downloads/FhillSlinger/devy/total" alt="downloads-badge"/>
   <img src="https://img.shields.io/github/languages/count/FhillSlinger/devy" alt="languages-count-badge"/>
   <img src="https://img.shields.io/github/languages/top/FhillSlinger/devy" alt="more-used-language-badge"/>
-  <img src="https://img.shields.io/github/contributors/FhillSlinger/devy" alt="contributors-badge"/>
 </div>
 
 <div>
