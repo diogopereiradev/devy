@@ -43,7 +43,7 @@
   <pre>git clone https://github.com/FhillSlinger/devy.git</pre>
   <p>Abra a pasta do projeto no terminal:</p>
   <pre>cd devy</pre>
-  <p>Execut o comando yarn para instalar as dependencias, o projeto usa o yarn mas caso queira você pode trocar por algum outro gerenciador de pacotes:</p>
+  <p>Execute o comando yarn para instalar as dependencias, o projeto usa o yarn mas caso queira você pode trocar por algum outro gerenciador de pacotes:</p>
   <pre>yarn</pre>
   <p>E finalmente chegamos no comando que inicia o app em modo de debug:</p>
   <pre>yarn tauri dev</pre>
