@@ -10,25 +10,26 @@
   <img src="https://img.shields.io/github/downloads/FhillSlinger/devy/total" alt="downloads-badge"/>
   <img src="https://img.shields.io/github/languages/count/FhillSlinger/devy" alt="languages-count-badge"/>
   <img src="https://img.shields.io/github/languages/top/FhillSlinger/devy" alt="more-used-language-badge"/>
+  <img src="https://img.shields.io/github/contributors/FhillSlinger/devy" alt="contributors-badge"/>
 </div>
 
 <div>
-  <h1>Qual o propósito do app?</h1>
-  <p>O app Devy foi desenvolvido para rodar sons ambientes e lofi de fundo, ele também tem um pomodoro embutido que contém uma configuração padrão de 25 minutos de estudos e 5 minutos de descanso, você pode ver uma demonstração do app funcionando no link abaixo:</p>
-  <a href="https://www.dropbox.com/s/oyopzni2uolhbqx/20230107_091556.mp4?dl=0">Demonstração</a>
+  <h1>What is the purpose of the app?</h1>
+  <p>The Devy app was developed to run ambient and lofi sounds in the background, it also has a built-in pomodoro that contains a default setting of 25 minutes of study and 5 minutes of rest, you can see a demo of the app working at the link below:</p>
+  <a href="https://www.dropbox.com/s/oyopzni2uolhbqx/20230107_091556.mp4?dl=0">Demonstration</a>
 </div>
 
 <div>
-  <h1>Como obter o app versão lançamento?</h1>
-  <p>Você consegue obter todas as versões do app na seção de releases do repositório:</p>
+  <h1>How to download?</h1>
+  <p>You can download all versions of devy in releases section:</p>
   <a href="https://github.com/FhillSlinger/devy/releases">Downloads</a>
   <br />
   <br />
-  <p>Só avisando, o app Devy funciona apenas no windows.</p>
+  <p>Access the page and download .msi instaler file, just a heads up, the Devy app only works on windows currently.</p>
 </div>
 
 <div>
-  <h1>Quais tecnologias foram usadas para o desenvolvimento?</h1>
+  <h1>What technologies did Devy use for development?</h1>
   <ul>
     <li>Tauri</li>
     <li>React.js</li>
@@ -38,17 +39,17 @@
 </div>
 
 <div>
-  <h1>Como iniciar o projeto para debugar?</h1>
-  <p>Vamos começar clonando o repositório, este projeto usa o LFS(Git Large File System) para armazenar os sons, então caso você baixe diretamente do github, você não terá acesso aos sons:</p>
+  <h1>How to start the project?</h1>
+  <p>Start using this command in terminal, this project use LFS(Git Large File System) then you have some problems with sounds on download repository directly from github:</p>
   <pre>git clone https://github.com/FhillSlinger/devy.git</pre>
-  <p>Abra a pasta do projeto no terminal:</p>
+  <p>Open the project folder in terminal:</p>
   <pre>cd devy</pre>
-  <p>Execute o comando yarn para instalar as dependencias, o projeto usa o yarn mas caso queira você pode trocar por algum outro gerenciador de pacotes:</p>
+  <p>Execute the yarn command to install the dependencies, the project use yarn but if you want, you can change to npm or other package manager:</p>
   <pre>yarn</pre>
-  <p>E finalmente chegamos no comando que inicia o app em modo de debug:</p>
+  <p>And finally use the next command to run desktop app in debug mode:</p>
   <pre>yarn tauri dev</pre>
 
-  <p>Caso você queira buildar o app para versão de release você pode utilizar o comando abaixo:</p>
+  <p>If you want to build your app in a .msi file you can use the command:</p>
   <pre>yarn tauri build</pre>
-  <p>O arquivo .msi após o build fica na pasta <code>src-tauri/target/release/bundle/msi</code> </p>
+  <p>the .msi file is located in <code>src-tauri/target/release/bundle/msi</code> </p>
 </div>
