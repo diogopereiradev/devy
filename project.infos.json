@@ -28,8 +28,8 @@
     }
   ],
   "projectThumbImageUrl": "https://i.ibb.co/NWhdcHX/image.png",
-  "projectIconUrl": "https://raw.githubusercontent.com/FhillSlinger/devy/master/src-tauri/icons/128x128.png",
-  "projectRepositoryUrl": "https://github.com/FhillSlinger/devy",
-  "projectLiveUrl": "https://github.com/FhillSlinger/devy",
+  "projectIconUrl": "https://raw.githubusercontent.com/diogopereiradev/devy/master/src-tauri/icons/128x128.png",
+  "projectRepositoryUrl": "https://github.com/diogopereiradev/devy",
+  "projectLiveUrl": "https://github.com/diogopereiradev/devy",
   "createdAt": "01/07/2023"
 }
