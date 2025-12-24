@@ -41,7 +41,7 @@
 <div>
   <h1>How to start the project?</h1>
   <p>Start using this command in terminal, this project use LFS(Git Large File System) then you have some problems with sounds on download repository directly from github:</p>
-  <pre>git clone https://github.com/FhillSlinger/devy.git</pre>
+  <pre>git clone https://github.com/diogopereiradev/devy.git</pre>
   <p>Open the project folder in terminal:</p>
   <pre>cd devy</pre>
   <p>Execute the yarn command to install the dependencies, the project use yarn but if you want, you can change to npm or other package manager:</p>
